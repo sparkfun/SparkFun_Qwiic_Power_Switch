@@ -1,4 +1,4 @@
-# Qwiic Power Switch
+# SparkFun Qwiic Power Switch
 
 A power switch for your Qwiic system.
 
