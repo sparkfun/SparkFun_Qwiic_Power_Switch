@@ -57,7 +57,7 @@ Product Versions
 ----------------
 
 * [PRT-26784](https://www.sparkfun.com/products/26784) - SparkFun Red Version
-* [PRT-16740](https://www.sparkfun.com/products/16740) - SparkX Version
+* [SPX-16740](https://www.sparkfun.com/products/16740) - SparkX Version
 
 
 
