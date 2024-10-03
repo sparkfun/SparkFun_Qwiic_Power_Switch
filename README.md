@@ -40,7 +40,7 @@ Repository Contents
 * **/overrides** - Customization files used for product documentation
   * **/.icons** - Icons used for GitHub used for product documentation
   * **./partials** - Used for product documentation
-- **LICENSE.md** contains the licence information
+* **LICENSE.md** contains the licence information
 
 
 
