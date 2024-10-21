@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
@@ -213,6 +213,8 @@
 <wire x1="20.066" y1="16.256" x2="20.066" y2="23.495" width="0.4064" layer="21"/>
 <wire x1="20.066" y1="23.495" x2="19.431" y2="24.13" width="0.4064" layer="21"/>
 <wire x1="19.431" y1="24.13" x2="7.62" y2="24.13" width="0.4064" layer="21"/>
+<text x="10.16" y="-17.78" size="1.778" layer="51" font="vector">Paul Clark</text>
+<text x="-5.08" y="-8.89" size="1.778" layer="48" font="vector">Measurements in inches.</text>
 </plain>
 <libraries>
 <library name="SparkFun-Resistors">
