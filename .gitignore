@@ -1,0 +1,9 @@
+
+*.lck
+*.kicad_prl
+Hardware/fp-info-cache
+/Hardware/SparkFun_TFT-backups
+Hardware/lcd_tft.bak
+Hardware/sym-lib-table
+Hardware/fp-lib-table
+Hardware/\#auto_saved_files\#
