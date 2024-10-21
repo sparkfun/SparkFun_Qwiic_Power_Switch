@@ -3,7 +3,7 @@ SparkFun Qwiic Power Switch
 
 A power switch for your Qwiic system.
 
-[![SparkFun Qwiic Power Switch (PRT-26784)]()](https://www.sparkfun.com/products/26784)
+[![SparkFun Qwiic Power Switch (PRT-26784)](https://cdn.sparkfun.com/r/600-600/assets/parts/2/7/8/6/7/PRT-26787-Qwiic-Power-Switch-Feature.jpg)](https://www.sparkfun.com/products/26784)
 
 [SparkFun Qwiic Power Switch (PRT-26784)](https://www.sparkfun.com/products/26784)
 
