@@ -26,7 +26,6 @@ Repository Contents
 -------------------
 
 * **.github/workflows** - YAML files used for GitHub Actions and GitHub Pages/mkdocs
-* **/Firmware** - Example code
 * **/Hardware** - Eagle design files (.brd, .sch)
   * **/Production** - Production panel files (.brd)
 * **/docs** - Online documentation files
