@@ -7,7 +7,7 @@ Many of our Qwiic products draw very little current when in standby, but there a
 
 -   <a href="https://www.sparkfun.com/products/26784">
       <figure markdown>
-        <img src="https://cdn.sparkfun.com/r/600-600/assets/parts/2/7/8/6/7/PRT-26787-Qwiic-Power-Switch-Feature.jpg" style="width:140px; height:140px; object-fit:contain;" alt="SparkFun Qwiic Power Switch">
+        <img src="https://cdn.sparkfun.com/r/600-600/assets/parts/2/7/8/6/7/PRT-26784-Qwiic-Power-Switch-Feature.jpg" style="width:140px; height:140px; object-fit:contain;" alt="SparkFun Qwiic Power Switch">
       </figure>
     </a>
 
@@ -63,7 +63,7 @@ To follow along with this tutorial, you will need the following materials. You m
 <!-- ----------WHITE SPACE BETWEEN PRODUCTS---------- -->
 -   <a href="https://www.sparkfun.com/products/26784">
       <figure markdown>
-        <img src="https://cdn.sparkfun.com/r/600-600/assets/parts/2/7/8/6/7/PRT-26787-Qwiic-Power-Switch-Feature.jpg" style="width:140px; height:140px; object-fit:contain;" alt="SparkFun Qwiic Power Switch">
+        <img src="https://cdn.sparkfun.com/r/600-600/assets/parts/2/7/8/6/7/PRT-26784-Qwiic-Power-Switch-Feature.jpg" style="width:140px; height:140px; object-fit:contain;" alt="SparkFun Qwiic Power Switch">
       </figure>
     </a>
 

@@ -3,8 +3,8 @@ In this section, we will highlight the hardware and pins that are broken out on 
 <div style="text-align: center;">
   <table>
     <tr style="vertical-align:middle;">
-     <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><a href="../assets/img/PRT-26787-Qwiic-Power-Switch_top.jpg"><img src="../assets/img/PRT-26787-Qwiic-Power-Switch_top.jpg" width="600px" height="600px" alt="Top View"></a></td>
-     <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><a href="../assets/img/PRT-26787-Qwiic-Power-Switch_bottom.jpg"><img src="../assets/img/PRT-26787-Qwiic-Power-Switch_bottom.jpg" width="600px" height="600px" alt="Bottom View"></a></td>
+     <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><a href="../assets/img/PRT-26784-Qwiic-Power-Switch_top.jpg"><img src="../assets/img/PRT-26784-Qwiic-Power-Switch_top.jpg" width="600px" height="600px" alt="Top View"></a></td>
+     <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><a href="../assets/img/PRT-26784-Qwiic-Power-Switch_bottom.jpg"><img src="../assets/img/PRT-26784-Qwiic-Power-Switch_bottom.jpg" width="600px" height="600px" alt="Bottom View"></a></td>
     </tr>
     <tr style="vertical-align:middle;">
      <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><i>Top View</i></td>
@@ -28,7 +28,7 @@ To power the board, we recommend applying 3.3V to the 3.3V pin on the side label
 <div style="text-align: center;">
   <table>
     <tr style="vertical-align:middle;">
-     <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><a href="../assets/img/PRT-26787-Qwiic-Power-Switch_Power.JPG"><img src="../assets/img/PRT-26787-Qwiic-Power-Switch_Power.JPG" width="600px" height="600px" alt="Power, Ground, Transistor and Qwiic Connector Highlighted"></a></td>
+     <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><a href="../assets/img/PRT-26784-Qwiic-Power-Switch_Power.JPG"><img src="../assets/img/PRT-26784-Qwiic-Power-Switch_Power.JPG" width="600px" height="600px" alt="Power, Ground, Transistor and Qwiic Connector Highlighted"></a></td>
     </tr>
     <tr style="vertical-align:middle;">
      <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><i>Power, Ground, Transistor, and Qwiic Connector Highlighted</i></td>
@@ -56,7 +56,7 @@ The board includes two horizontal Qwiic connectors to connect Qwiic-enabled I<su
 <div style="text-align: center;">
   <table>
     <tr style="vertical-align:middle;">
-     <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><a href="../assets/img/PRT-26787-Qwiic-Power-Switch_Qwiic_I2C.JPG"><img src="../assets/img/PRT-26787-Qwiic-Power-Switch_Qwiic_I2C.JPG" width="600px" height="600px" alt="Qwiic Connector, I2C, and PCA9306 Highlighted"></a></td>
+     <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><a href="../assets/img/PRT-26784-Qwiic-Power-Switch_Qwiic_I2C.JPG"><img src="../assets/img/PRT-26784-Qwiic-Power-Switch_Qwiic_I2C.JPG" width="600px" height="600px" alt="Qwiic Connector, I2C, and PCA9306 Highlighted"></a></td>
     </tr>
     <tr style="vertical-align:middle;">
      <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><i>Qwiic Connector, I<sup>2</sup>C, and PCA9306 Highlighted</i></td>
@@ -80,7 +80,7 @@ The PCA9536 is a 4-bit GPIO IC that enables users to toggle the following GPIO p
 <div style="text-align: center;">
   <table>
     <tr style="vertical-align:middle;">
-     <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><a href="../assets/img/PRT-26787-Qwiic-Power-Switch_PCA9536_GPIO.JPG"><img src="../assets/img/PRT-26787-Qwiic-Power-Switch_PCA9536_GPIO.JPG" width="600px" height="600px" alt="PCA9536 and GPIO Pins Highlighted"></a></td>
+     <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><a href="../assets/img/PRT-26784-Qwiic-Power-Switch_PCA9536_GPIO.JPG"><img src="../assets/img/PRT-26784-Qwiic-Power-Switch_PCA9536_GPIO.JPG" width="600px" height="600px" alt="PCA9536 and GPIO Pins Highlighted"></a></td>
     </tr>
     <tr style="vertical-align:middle;">
      <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><i>PCA9536 and GPIO Pins Highlighted</i></td>
@@ -96,7 +96,7 @@ The board includes two LEDs to indicate when power is available on the input and
 <div style="text-align: center;">
   <table>
     <tr style="vertical-align:middle;">
-     <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><a href="../assets/img/PRT-26787-Qwiic-Power-Switch_LEDs.JPG"><img src="../assets/img/PRT-26787-Qwiic-Power-Switch_LEDs.JPG" width="600px" height="600px" alt="LEDs Highlighted"></a></td>
+     <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><a href="../assets/img/PRT-26784-Qwiic-Power-Switch_LEDs.JPG"><img src="../assets/img/PRT-26784-Qwiic-Power-Switch_LEDs.JPG" width="600px" height="600px" alt="LEDs Highlighted"></a></td>
     </tr>
     <tr style="vertical-align:middle;">
      <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><i>LEDs Highlighted</i></td>
@@ -121,7 +121,7 @@ The back of the board includes jumpers to configure the board.
 <div style="text-align: center;">
   <table>
     <tr style="vertical-align:middle;">
-     <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><a href="../assets/img/PRT-26787-Qwiic-Power-Switch_Jumpers.JPG"><img src="../assets/img/PRT-26787-Qwiic-Power-Switch_Jumpers.JPG" width="600px" height="600px" alt="Jumpers Highlighted"></a></td>
+     <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><a href="../assets/img/PRT-26784-Qwiic-Power-Switch_Jumpers.JPG"><img src="../assets/img/PRT-26784-Qwiic-Power-Switch_Jumpers.JPG" width="600px" height="600px" alt="Jumpers Highlighted"></a></td>
     </tr>
     <tr style="vertical-align:middle;">
      <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><i>Jumpers Highlighted</i></td>
