@@ -5,12 +5,6 @@ In this section, we will go over how to connect to the Qwiic Power Switch.
 
 Insert a Qwiic cable between your Arduino microcontroller and the Qwiic Power Switch&apos;s IN port. In this case, we used the SparkFun Thing Plus ESP32- USB-C for the Arduino microcontroller. Then connect Qwiic cable between the Qwiic Power Switch's OUT port to the second Qwiic-enabled device. In this case, we used the ZED-F9P SMA breakout board when toggling power and isolating the I<sup>2</sup>C lines. We also connected an external multiband antenna to the ZED-F9P. When ready, connect a USB cable to the Arduino to program, power, and control the Qwiic Power Switch through a serial terminal.
 
-    insert here
-
-
-
-    USB-C Cable <=> Thing Plus ESP32 <=> Qwiic Power Switch <=> ZED-F9P <=> Multiband Antenna
-
 !!! note
     To isolate any Qwiic-enabled device, you will need to connect the Qwiic-enabled device from the OUT port.
 
