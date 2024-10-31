@@ -207,10 +207,23 @@ Let&apos;s send a <kbd>2</kbd> to turn power off the Qwiic Power Switch&apos;s o
   </table>
 </div>
 
-If the Qwiic-enabled board includes a built-in LED, you can see if power is enabled. The power LED should be off. If you would like to verify that the I<sup>2</sup>C lines are isolated, try turning the power back on by sending a <kbd>1</kbd> and then sending a <kbd>3</kbd> to isolate the I<sup>2</sup>C lines. While still applying power to the Qwiic Power Switch, try re-uploading code to the Arduino for the Qwiic-enabled board that is connected to the Qwiic Power Switch's OUT. Assuming that the example code checks for the Qwiic-enabled device, you should receive a message indicating that the Qwiic-enabled device was not detected.
+If the Qwiic-enabled board includes a built-in LED, you can see if power is enabled. The power LED (as well as any other LED on the board) should have turned off as soon as power is disabled at the OUT port. In this case, the Qwiic Power Switch's OUT and ZED-F9P's LEDs when power was disabled and I<sup>2</sup>C isolation is enabled.
 
-!!! note
-    Of course, you could also use the [Arduino I2C scanner](https://playground.arduino.cc/Main/I2cScanner/) to scan the I<sup>2</sup>C bus and detect I<sup>2</sup>C devices. When scanning, you should only see the Qwwic Power Switch and anything that was connected before the IN port. Anything after the OUT will not be detected on the OUT port if power was disabled or the lines were isolated.
+<div style="text-align: center;">
+  <table>
+    <tr style="vertical-align:middle;">
+     <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><a href="../assets/img/PRT-26787_Qwiic_Power_Switch_LOUT_ZED-F9P_LEDs_Turning_OFF.gif"><img src="../assets/img/PRT-26787_Qwiic_Power_Switch_LOUT_ZED-F9P_LEDs_Turning_OFF.gif" width="600px" height="600px" alt="Qwiic Power Switch OUT and ZED-F9P LEDs Turning OFF"></a></td>
+    </tr>
+    <tr style="vertical-align:middle;">
+     <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><i>Qwiic Power Switch OUT and ZED-F9P LEDs Turning OFF</i></td>
+    </tr>
+  </table>
+</div>
 
 !!! note
     If power is OFF at the OUT port but you decide to disable I<sup>2</sup>C isolation, you may notice a voltage at the 3.3V OUT pin from the pull-up resistors connected to the I<sup>2</sup>C lines.
+
+If you would like to verify that the I<sup>2</sup>C lines are isolated, try turning the power back on by sending a <kbd>1</kbd> and then sending a <kbd>3</kbd> to isolate the I<sup>2</sup>C lines. While still applying power to the Qwiic Power Switch, try re-uploading code to the Arduino for the Qwiic-enabled board that is connected to the Qwiic Power Switch's OUT. Assuming that the example code checks for the Qwiic-enabled device, you should receive a message indicating that the Qwiic-enabled device was not detected.
+
+!!! note
+    Of course, you could also use the [Arduino I2C scanner](https://playground.arduino.cc/Main/I2cScanner/) to scan the I<sup>2</sup>C bus and detect I<sup>2</sup>C devices. When scanning, you should only see the Qwwic Power Switch and anything that was connected before the IN port. Anything after the OUT will not be detected on the OUT port if power was disabled or the lines were isolated.
