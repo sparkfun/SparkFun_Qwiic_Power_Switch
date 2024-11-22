@@ -91,7 +91,7 @@ The PCA9536 is a 4-bit GPIO IC that enables users to toggle the following GPIO p
 
 ### LEDs
 
-The board includes two LEDs to indicate when power is available on the input and output's 3.3.V pins. Both can be disabled with the jumpers on the back of the board.
+The board includes two LEDs to indicate when power is available on the input and output's 3.3V pins. Both can be disabled with the jumpers on the back of the board.
 
 <div style="text-align: center;">
   <table>
@@ -115,7 +115,7 @@ The back of the board includes jumpers to configure the board.
 
 * **I<sup>2</sup>C IN** &mdash; By default, this three-pad jumper is closed. The three way jumper labeled I<sup>2</sup>C IN connects 3.3V to two 2.2k&ohm; pull-up resistors and to the I<sup>2</sup>C data and clock lines. If multiple devices are connected to the bus with the pull-up resistors enabled, the parallel equivalent resistance will create too strong of a pull-up for the bus to operate correctly. As a general rule of thumb, [disable all but one pair of pull-up resistors](https://learn.sparkfun.com/tutorials/i2c/all#i2c-at-the-hardware-level) if multiple devices are connected to the bus.
 * **I<sup>2</sup>C OUT** &mdash; By default, this three-pad jumper is closed. Similar to the I<sup>2</sup>C IN jumper, this jumper is connects the VOUT net to two 2.2k&ohm; pull-up resistors and to the I<sup>2</sup>C data and clock lines. This VOUT is controlled by a MOSFET power switch and PCA9536's GPIO0. When the transistor is turned on, VOUT will connect to the input 3.3V pin.
-* **LED IN** &mdash; By default, this jumper connects the LED to the input's 3.3V pin.. Cutting this trace disables the LED.
+* **LED IN** &mdash; By default, this jumper connects the LED to the input's 3.3V pin. Cutting this trace disables the LED.
 * **LED OUT** &mdash; By default, this jumper connects the LED to the output's 3.3V pin. Cutting this trace disables the LED.
 
 <div style="text-align: center;">

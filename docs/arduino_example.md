@@ -4,7 +4,7 @@ Now that we have our library and board add-on installed, we can start experiment
 
 ### Upload Arduino Example
 
-After unzipping the compressed files, navigate to the example: **File** > **Examples** > **SparkFun Qwiic Power Switch Arduino Library** > **Example1_PowerOnOff**. This example allows you to toggle power and isolate the I<sup>2</sup>C lines for the OUT port through a serial terminal. THe example also allows you to read GPIO1 and GPIO2.
+After unzipping the compressed files, navigate to the example: **File** > **Examples** > **SparkFun Qwiic Power Switch Arduino Library** > **Example1_PowerOnOff**. This example allows you to toggle power and isolate the I<sup>2</sup>C lines for the OUT port through a serial terminal. The example also allows you to read GPIO1 and GPIO2.
 
 For users using an Arduino microcontroller, select your board in the Tools menu (in our case the **SparkFun ESP32 Thing Plus C**) and the correct Port it enumerated on.
 
